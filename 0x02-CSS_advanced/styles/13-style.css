@@ -41,17 +41,13 @@ a[href] {
     text-decoration: none;
 }
 a[href]:visited{
-    color: var(--text-color);
-    text-decoration: none;
     font-style: italic;
 }
 a[href]:hover {
-    color: var(--text-color);
-    text-decoration: none;
     text-decoration: underline;
 }
 a[href]:active {
-    background-color: var(--color-light-grey);
+    background: var(--color-light-grey);
 }
 .visually-hidden {
     display: none;
